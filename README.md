@@ -17,3 +17,10 @@ pip install scapy
 
 ```bash
 python3 nmap_clone.py -t <target-ip> [-s] [-o]
+Options
+
+-t <ip> → Target IP (required)
+
+-s → Enable SYN scan
+
+-o → Enable OS detection
