@@ -12,3 +12,8 @@ A simple Python-based port scanner with:
 git clone https://github.com/yourusername/PortScanner.git
 cd PortScanner
 pip install scapy
+
+## Usage
+
+```bash
+python3 nmap_clone.py -t <target-ip> [-s] [-o]
